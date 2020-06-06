@@ -83,29 +83,7 @@ void variableDeclarations()
     
     ignoreUnused(number); //passing each variable declared to the ignoreUnused() function
 
-    ignoreUnused(recordingChannels);
-    ignoreUnused(userAge);
-    ignoreUnused(midiNote);
-
-    ignoreUnused(chVolume);
-    ignoreUnused(reverbAmount);
-    ignoreUnused(licensePrice);
-
-    ignoreUnused(pi);
-    ignoreUnused(whLatitude);
-    ignoreUnused(referenceNumber);
-
-    ignoreUnused(includeLowerOctave);
-    ignoreUnused(toOutput);
-    ignoreUnused(isPlaying);
-
-    ignoreUnused(quitApp);
-    ignoreUnused(gender);
-    ignoreUnused(nameInitial);
-
-    ignoreUnused(progress);
-    ignoreUnused(distance);
-    ignoreUnused(productAmount);
+    ignoreUnused(recordingChannels, userAge, midiNote, chVolume, reverbAmount, licensePrice, pi, whLatitude, referenceNumber, includeLowerOctave, toOutput, isPlaying, quitApp, gender, nameInitial, progress, distance, productAmount);
 }
 /*
  10 functions
@@ -241,14 +219,7 @@ int main()
     //10)
     auto dBLevel = linear2dB(0.35f);
     
-    ignoreUnused(carRented);
-    ignoreUnused(temp);
-    ignoreUnused(playSuccess);
-    ignoreUnused(sum);
-    ignoreUnused(retailPrice);
-    ignoreUnused(midiNote);
-    ignoreUnused(resetSuccess);
-    ignoreUnused(dBLevel);
+    ignoreUnused(carRented, temp, playSuccess, sum, retailPrice, midiNote, resetSuccess, dBLevel);
     std::cout << "good to go!" << std::endl;
     return 0;    
 }
